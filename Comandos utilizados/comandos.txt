@@ -1,0 +1,18 @@
+ 5037  mkdir Actividades
+ 5038  cd Actividades/
+ 5039  mkdir "Deportes de equipo" "Deportes acuaticos" "Deportes extremos" "Deportes de mesa" "Deportes mentales"
+ 5041  cd "Deportes de equipo"
+ 5042  touch Basquet Ajedrez.txt "Ping pong"
+ 5043  cp * ../"Deportes acuaticos"
+ 5044  cp * ../"Deportes extremos"
+ 5045  cp * ../"Deportes de mesa"
+ 5046  cp * ../"Deportes mentales"
+ 5048  cd ..
+ 5049  ls -R
+ 5050  rm -r "Deportes extremos"
+ 5051  pwd
+ 5052  git init
+ 5053  git remote add origin https://github.com/Caspec1/repaso-intro.git
+ 5054  git push -u origin main\n
+ 5055  mkdir "Comandos utilizados"
+ 5056  touch "Comandos utilizados"/comandos.txt
